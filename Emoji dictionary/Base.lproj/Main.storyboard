@@ -62,17 +62,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vF8-fs-3n7">
+                                <rect key="frame" x="103" y="433.5" width="168.5" height="20.5"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uG3-MJ-sLc">
+                                <rect key="frame" x="122.5" y="434" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0u-3j-uAT">
+                                <rect key="frame" x="129" y="475" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="uG3-MJ-sLc" firstAttribute="top" secondItem="dSm-S6-WMf" secondAttribute="bottom" constant="20" id="3nC-9o-M1B"/>
+                            <constraint firstItem="c0u-3j-uAT" firstAttribute="centerX" secondItem="qkJ-TH-n8d" secondAttribute="centerX" id="HLy-G6-g0g"/>
+                            <constraint firstItem="uG3-MJ-sLc" firstAttribute="centerX" secondItem="qkJ-TH-n8d" secondAttribute="centerX" id="KB6-qW-7uh"/>
                             <constraint firstItem="dSm-S6-WMf" firstAttribute="centerX" secondItem="qkJ-TH-n8d" secondAttribute="centerX" id="M3W-Qe-xAo"/>
                             <constraint firstItem="ibW-1H-wLn" firstAttribute="top" secondItem="G1o-y9-YqG" secondAttribute="top" constant="40" id="Otv-gB-nbn"/>
+                            <constraint firstItem="vF8-fs-3n7" firstAttribute="centerX" secondItem="qkJ-TH-n8d" secondAttribute="centerX" id="fWF-ef-OzB"/>
                             <constraint firstItem="dSm-S6-WMf" firstAttribute="top" secondItem="ibW-1H-wLn" secondAttribute="bottom" constant="50" id="gb1-jO-NoU"/>
+                            <constraint firstItem="c0u-3j-uAT" firstAttribute="top" secondItem="uG3-MJ-sLc" secondAttribute="bottom" constant="20" id="nsY-JB-hjy"/>
                             <constraint firstItem="ibW-1H-wLn" firstAttribute="centerX" secondItem="qkJ-TH-n8d" secondAttribute="centerX" id="wdE-5B-eUR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="G1o-y9-YqG"/>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="c0u-3j-uAT" id="EUe-Q5-735"/>
+                        <outlet property="categoryLabel" destination="uG3-MJ-sLc" id="Aql-GN-BBe"/>
                         <outlet property="definitionLabel" destination="dSm-S6-WMf" id="Z05-Ei-ZNG"/>
                         <outlet property="emojilabel" destination="ibW-1H-wLn" id="19S-gw-Wgx"/>
                     </connections>

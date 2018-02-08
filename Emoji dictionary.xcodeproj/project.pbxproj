@@ -13,6 +13,7 @@
 		226722512027484000794661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226722502027484000794661 /* Assets.xcassets */; };
 		226722542027484000794661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226722522027484000794661 /* LaunchScreen.storyboard */; };
 		22DC6262202A289E00EEA603 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC6261202A289E00EEA603 /* DefinitionViewController.swift */; };
+		22DC6264202A495B00EEA603 /* Emoj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC6263202A495B00EEA603 /* Emoj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		226722532027484000794661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226722552027484000794661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22DC6261202A289E00EEA603 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		22DC6263202A495B00EEA603 /* Emoj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				226722492027484000794661 /* AppDelegate.swift */,
 				2267224B2027484000794661 /* ViewController.swift */,
 				22DC6261202A289E00EEA603 /* DefinitionViewController.swift */,
+				22DC6263202A495B00EEA603 /* Emoj.swift */,
 				2267224D2027484000794661 /* Main.storyboard */,
 				226722502027484000794661 /* Assets.xcassets */,
 				226722522027484000794661 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DC6264202A495B00EEA603 /* Emoj.swift in Sources */,
 				2267224C2027484000794661 /* ViewController.swift in Sources */,
 				22DC6262202A289E00EEA603 /* DefinitionViewController.swift in Sources */,
 				2267224A2027484000794661 /* AppDelegate.swift in Sources */,
